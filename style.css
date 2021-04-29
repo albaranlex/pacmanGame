@@ -1,8 +1,21 @@
 body {
     position: relative;
     height: 100vh;
+    margin: 20px;
+    font-family: Avenir;
 }
 
+h3 {
+    font-size: 1.5em;
+}
+#keys {
+    width: 200px;
+    height: 150px;
+}
+
+.button {
+    border: 2px solid white;
+}
 .mini {
     position: absolute;
     z-index: 1;
@@ -12,3 +25,11 @@ body {
     width: 50px;
     height: 50px;
 }
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 50vh;
+}
+
